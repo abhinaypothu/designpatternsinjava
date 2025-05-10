@@ -1,0 +1,14 @@
+package com.dp.creational.prototype;
+
+public class ShapePrototype {
+    private Shape shape;
+    public ShapePrototype(Shape shape)
+    {
+        this.shape = shape;
+    }
+
+    public Shape clone(){
+        return shape.clone();
+    }
+
+}

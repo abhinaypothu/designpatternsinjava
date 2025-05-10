@@ -1,0 +1,7 @@
+package com.dp.creational.builder;
+
+public interface StudentInterf {
+    void setName(String name);
+    void setAge(int age);
+    void setClass(int classNum);
+}
