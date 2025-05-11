@@ -1,0 +1,14 @@
+using filter or criteria design pattern
+we can filter the set of objects using the set of criteria
+
+example
+
+person collection
+
+david,male,married
+john,male,notMarried
+Rohan,male,notMarried
+shebha,female,married
+dona,female,notMarried
+
+
