@@ -1,1 +1,4 @@
-A Task abstract class can be extended to one or more than one class and each class can be added other variables and methods
+A component interface can have composite class or leaf class
+where
+composite class can have more than one leafs
+leaf can act as a component
