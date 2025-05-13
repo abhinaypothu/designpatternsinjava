@@ -11,7 +11,7 @@ public class ChatMediater {
 
     public void sendMessage(User fromUser,User toUser,String message){
         for(User user:users){
-            if(user.equals(toUser));
+            if(user.getName().equals(toUser.getName()))
                 user.receive(fromUser,message);
         }
 

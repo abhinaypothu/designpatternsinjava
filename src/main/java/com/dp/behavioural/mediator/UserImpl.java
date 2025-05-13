@@ -3,16 +3,15 @@ package com.dp.behavioural.mediator;
 public class UserImpl implements User{
     String name;
     ChatMediater mediater;
-    UserImpl(String name)
+    UserImpl(String name,ChatMediater mediater)
     {
         this.name = name;
-        mediater = new ChatMediater();
-        mediater.addUser(this);
+       this.mediater = mediater;
     }
 
     @Override
     public void receive(User fromUser, String message) {
-        System.out.println("Received from "+fromUser.getName());
+        System.out.print(fromUser.getName()+": ");
         System.out.println(message);
     }
 
