@@ -5,7 +5,6 @@ import java.util.Date;
 
 public class ProxyDriver {
     public static void main(String[] args) throws IOException {
-
         User user = new User("dp","CEO");
         User user2 = new User("Abhi","Dev");
         IFolder folder = new FolderProxy(user);

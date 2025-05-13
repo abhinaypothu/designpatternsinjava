@@ -1,0 +1,12 @@
+Flyweight is used to create large number of objects of almost simillar fashion
+
+here large number of object produce large amount of time
+here flyweight dp provides a solution for reducing the load on memory  by sharing objects
+
+two types of flyweight patterns
+
+intrinsic
+objects are constant and stored in the memory
+
+extrinsic
+objects are not constant and calculated on the go

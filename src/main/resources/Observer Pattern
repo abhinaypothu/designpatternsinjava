@@ -1,0 +1,9 @@
+What it does:
+One object (the subject) keeps a list of others (observers) who want updates when something changes.
+
+Real-world analogy:
+Think of YouTube. You subscribe to a channel (observer), and when a new video is uploaded (event), you get notified.
+
+Use case:
+Newsfeeds, event systems.
+

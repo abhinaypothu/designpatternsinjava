@@ -1,0 +1,5 @@
+Avoid coupling the sender of a request to its receiver by  giving more than one receiver object a chance to handle the request.
+Chain the receiving objects and pass the request along the chain until an object handles it.
+It creates a chain of receiver objects for a request.
+Each receiver contains reference to another receiver. If one receiver cannot handle the request then it will pass to the next receiver.
+(One receiver handles a request in the chain) or (One or more receivers in the chain handles a request).
