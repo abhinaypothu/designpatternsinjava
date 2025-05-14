@@ -1,0 +1,10 @@
+Single Responsibility principle
+any class component or function should exactly do one thing
+
+
+SRP encourage us to divide our code from monolithic files to number of files ensure lines of code should be between 50 to 100
+
+more maintainable ,easy to read and understand
+
+if lines of code above 150 then recomended to fragmant the code
+
