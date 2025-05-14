@@ -1,0 +1,8 @@
+This principle states that
+
+subclass should be substitutable for its base class
+if B extends A then we shpuld be use B everywhere without altering A
+
+
+only override methods with respect to given childclass
+dont override methods which is related to parentClass
