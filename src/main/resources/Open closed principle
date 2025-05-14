@@ -3,3 +3,7 @@ means when a new feature is added make sure no changes
 
 
 Software should be open for extension but closed for modification
+
+
+no code break if new feature added
+loose coupling and ensure less correct to modularity
