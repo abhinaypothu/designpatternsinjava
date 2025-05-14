@@ -1,0 +1,5 @@
+The main ajenda for Open Closed Principle is to make code extensible
+means when a new feature is added make sure no changes
+
+
+Software should be open for extension but closed for modification
